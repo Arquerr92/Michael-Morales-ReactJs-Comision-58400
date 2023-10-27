@@ -1,0 +1,7 @@
+.nav-nombre {
+    font-weight: 1000 !important; 
+    color: white; 
+}
+.nav-nombre:hover {
+    color: #00FF00 !important; 
+}

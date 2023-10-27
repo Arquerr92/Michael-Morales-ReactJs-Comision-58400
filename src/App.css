@@ -1,0 +1,9 @@
+.app {
+    text-align: center;
+}
+section {
+    color: #fff;
+    text-shadow: 3px 3px rgba(50,50, 70, 0.5) ;
+    background-color: rgb(10, 14, 11);
+    height: 100vh;
+}
