@@ -7,7 +7,7 @@ export const CartWidget = () => {
     <div>
       <i className="bi bi-cart-fill cart-icon"></i>
       <h5>
-        <Badge bg="secondary">7</Badge>
+        <Badge bg="secondary">0</Badge>
       </h5>
     </div>
   )

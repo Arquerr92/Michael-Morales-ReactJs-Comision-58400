@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "titulo": "Cerveza 01",
+        "imagen":"https://i.postimg.cc/bY3DCpK4/alien-cerveza-1.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Cervezas",
+        "precio": 800
+    },
+    {
+        "id":2,
+        "titulo": "Cerveza 02",
+        "imagen":"https://i.postimg.cc/RVY3mGCR/alien-cerveza-2.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Cervezas",
+        "precio": 1000
+    },
+    {
+        "id":3,
+        "titulo": "Cerveza 03",
+        "imagen":"https://i.postimg.cc/kgt2g8Bd/alien-cerveza-3.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Cervezas",
+        "precio": 950
+    },
+    {
+        "id":4,
+        "titulo":"Comida 01",
+        "imagen":"https://i.postimg.cc/FK57dRLk/comida-alien-1.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 280
+    },
+    {
+        "id":5,
+        "titulo": "Comida 02",
+        "imagen":"https://i.postimg.cc/MG7XyS7P/comida-alien-2.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 630
+    },
+    {
+        "id":6,
+        "titulo": "Comida 03",
+        "imagen":"https://i.postimg.cc/tT9JkMDX/comida-alien-3.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 720
+    },
+    {
+        "id":7,
+        "titulo": "Comida 04",
+        "imagen":"https://i.postimg.cc/wTMtnnzM/comida-alien-4.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 350
+    },
+    {
+        "id":8,
+        "titulo": "Comida 05",
+        "imagen":"https://i.postimg.cc/T1wwM5ZF/comida-alien-5.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 750
+    },
+    {
+        "id":9,
+        "titulo": "Comida 06",
+        "imagen":"https://i.postimg.cc/rmgmPNY5/comida-alien-6.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 500
+    },
+    {
+        "id":10,
+        "titulo": "Comida 07",
+        "imagen":"https://i.postimg.cc/BbVvqQ36/comida-alien-7.webp",
+        "info": "excelente producto listo para ser enviado!",
+        "categoria": "Comida",
+        "precio": 450
+    }
+    ]
