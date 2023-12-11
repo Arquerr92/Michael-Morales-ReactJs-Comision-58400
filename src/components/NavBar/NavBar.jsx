@@ -26,9 +26,9 @@ function CollapsibleExample() {
             <Nav.Link className='nav-nombre' as={Link} to="/tienda/Comida">COMIDA</Nav.Link>
             <Nav.Link className='nav-nombre' as={Link} to="/acercaDeNosotros">ACERCA DE NOSOTROS</Nav.Link>
             <Nav.Link className='nav-nombre' as={Link} to="/contacto">CONTACTO</Nav.Link>
+            <Nav.Link> <CartWidget /> </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <CartWidget />
       </Container>
     </Navbar>
     

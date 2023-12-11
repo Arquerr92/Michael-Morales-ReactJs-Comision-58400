@@ -1,25 +1,20 @@
 import {useState} from 'react'
-import Button from 'react-bootstrap/Button';
-import Badge from 'react-bootstrap/Badge';
-import "../ItemListContainer/ItemListContainer.css"
+import "../../app.css"
 
 
 
-const ItemCount = () => {
+const ItemCount = ({cantidad, handleRestar, handleSumar, handleAgregar}) => {
 
-  const [cantidad, setCantidad] = useState(1)
   
- 
-
   return (
     <div>
-        <Button variant="primary" onClick={() => {setCantidad(cantidad + 1)}}>+</Button>{' '}
-        <Button variant="primary">
-        <Badge bg="secondary">{cantidad}</Badge>
-        <span className="visually-hidden">unread messages</span>
-        </Button>
-        <Button variant="primary" onClick={() => {cantidad > 1 && setCantidad(cantidad - 1)} }>-</Button>{' '}
-        <Button variant="success">Agregar al Carrito</Button>{' '}
+
+        <div className="item-count">
+            <button onClick={handleRestar}>-</button>
+            <p>{cantidad}</p>
+            <button onClick={handleSumar}>+</button>
+        </div>
+        <button className="agregar-al-carrito" onClick={handleAgregar}>Agregar al carrito</button>
     </div>
   )
 }
