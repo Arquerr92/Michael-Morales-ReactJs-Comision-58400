@@ -1,0 +1,48 @@
+import React, { useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
+import { Link } from 'react-router-dom';
+import "../../App.css"
+
+const Cart = () => {
+
+    const { carrito, precioTotal, vaciarCarrito} = useContext(CartContext);
+
+    const handleVaciar = () => {
+        vaciarCarrito();
+    }
+
+
+  return (
+    <div className='container'>
+        <h1 className='main-title'>Carrito</h1>
+        <div className="productos-carrito">
+        {
+            carrito.map((prod) => (
+                <div key={prod.id}>
+                    <br />
+                    <img className='imagen-carrito' src={prod.imagen} alt={prod.titulo} />
+                    <h3>{prod.titulo}</h3>
+                    <p>Precio unit: ${prod.precio}</p>
+                    <p>Precio total: ${prod.precio * prod.cantidad}</p>
+                    <p>Cant: {prod.cantidad}</p>
+                    <br />
+                </div>
+            ))
+        }
+        </div>
+        
+        {  
+            carrito.length > 0 ?
+            <div className='carrito-total'>
+                <h2>Precio total: ${precioTotal()}</h2>
+                <button className='carrito-vaciar' onClick={handleVaciar}>Vaciar</button>
+                <Link className='carrito-finalizar-compra' to="/checkout">Finalizar compra</Link>
+            </div> :
+            <h2>El carrito está vacío! (Porfavor Agregar Productos) =D !</h2>
+        }
+    
+    </div>
+  )
+}
+
+export default Cart
